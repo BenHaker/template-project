@@ -1,0 +1,1 @@
+{"version":3,"file":"healthcheckDoc.js","sourceRoot":"","sources":["../../src/swagger/healthcheckDoc.ts"],"names":[],"mappings":";;;AAAa,QAAA,cAAc,GAAG;IAC1B,IAAI,EAAE,CAAC,aAAa,CAAC;IACrB,WAAW,EAAE,kCAAkC;IAC/C,WAAW,EAAE,aAAa;IAC1B,SAAS,EAAE;QACP,KAAK,EAAE;YACH,WAAW,EAAE,qBAAqB;SACrC;KACJ;CACJ,CAAA"}
