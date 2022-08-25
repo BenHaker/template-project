@@ -1,4 +1,4 @@
-import { healthCheckDoc } from "./healthcheckDoc"
+import { healthCheckDoc } from "./healthcheckDoc.js"
 
 export const swaggerDocument = {
     openapi: '3.0.1',

@@ -1,7 +1,7 @@
 import express, { Express, Request, Response } from 'express';
 import bodyParser from 'body-parser';
-const swaggerUI = require('swagger-ui-express');
-import { swaggerDocument  } from './swagger/swagger';
+import swaggerUI from 'swagger-ui-express';
+import { swaggerDocument  } from './swagger/swagger.js';
 
 const PORT = process.env.PORT || 3000;
 const app: Express = express();

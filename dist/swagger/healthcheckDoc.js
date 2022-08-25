@@ -1,7 +1,4 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.healthCheckDoc = void 0;
-exports.healthCheckDoc = {
+export var healthCheckDoc = {
     tags: ['healthcheck'],
     description: "Return if the service is healthy",
     operationId: 'healthcheck',

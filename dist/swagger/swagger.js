@@ -1,8 +1,5 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.swaggerDocument = void 0;
-var healthcheckDoc_1 = require("./healthcheckDoc");
-exports.swaggerDocument = {
+import { healthCheckDoc } from "./healthcheckDoc.js";
+export var swaggerDocument = {
     openapi: '3.0.1',
     info: {
         version: '1.0.0',
@@ -26,7 +23,7 @@ exports.swaggerDocument = {
     ],
     paths: {
         "/healthcheck": {
-            "get": healthcheckDoc_1.healthCheckDoc
+            "get": healthCheckDoc
         }
     }
 };
